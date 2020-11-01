@@ -47,7 +47,6 @@ const extractFields = async (apiURL, store, cache, createNode, touchNode, auth, 
       } catch (e) {
         // Ignore
       }
-      console.log(item)
     }
   }
 
