@@ -1,26 +1,7 @@
 {
-  "name": "gatsby-source-strapi",
-  "version": "0.0.12",
-  "description": "Gatsby source plugin for building websites using Strapi as a data source",
-  "author": {
-    "email": "hi@strapi.io",
-    "name": "Strapi Solutions",
-    "url": "http://strapi.io"
-  },
-  "maintainers": [
-    {
-      "name": "Strapi Solutions",
-      "email": "hi@strapi.io",
-      "url": "http://strapi.io"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/strapi/gatsby-source-strapi.git"
-  },
-  "bugs": {
-    "url": "https://github.com/strapi/gatsby-source-strapi/issues"
-  },
+  "name": "gatsby-source-strapi-fix",
+  "version": "0.0.2",
+  "description": "Gatsby source plugin for building websites using Strapi as a data source but fix images",
   "license": "MIT",
   "homepage": "http://strapi.io",
   "scripts": {
@@ -42,7 +23,8 @@
     "gatsby-node-helpers": "^0.3.0",
     "gatsby-source-filesystem": "^1.5.39",
     "lodash": "^4.17.11",
-    "pluralize": "^7.0.0"
+    "pluralize": "^7.0.0",
+    "uuid": "^8.3.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

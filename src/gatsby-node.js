@@ -87,3 +87,7 @@ exports.sourceNodes = async (
 
   fetchActivity.end()
 }
+
+exports.onPreInit = () => {
+  console.log('Gatsby-source-strapi-fix...')
+}
